@@ -20,4 +20,11 @@ export const Container = styled.div`
     font-size: 24px;
     line-height: 32px;
   }
+
+  button {
+    border: 0;
+    width: 10%;
+    background: ${props => props.theme.colors.primary};
+    padding: 15px 10px;
+  }
 `
