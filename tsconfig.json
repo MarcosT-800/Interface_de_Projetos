@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/components/clock/clock.js"  ],
   "exclude": [
     "node_modules"
   ]
