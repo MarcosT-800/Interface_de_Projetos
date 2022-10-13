@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  width: 100vw;
-  height: 95vh;
-  margin-top: 5vw;
+  width: 100%;
+  margin: 0;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,6 +24,7 @@ export const Container = styled.div`
   .container{
 	position: relative;
 	display: flex;
+  flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	max-width: 1200px;
@@ -32,7 +33,7 @@ export const Container = styled.div`
 }
 
 .container .card1{
-	position: 70;
+	position: relative;
 	width: 350px;/*A largura dos cards*/
 	height: 300px;/*altura dos cards*/
 	margin: 30px;
@@ -113,4 +114,14 @@ export const Container = styled.div`
       to {traform: rotate(360deg);}
     }
 
+`
+
+export const Section = styled.div` 
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 `
