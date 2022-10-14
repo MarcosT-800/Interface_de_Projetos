@@ -34,8 +34,8 @@ export const Container = styled.div`
 
 .container .card1{
 	position: relative;
-	width: 350px;/*A largura dos cards*/
-	height: 300px;/*altura dos cards*/
+	width: 240px;/*A largura dos cards*/
+	height: 500px;/*altura dos cards*/
 	margin: 30px;
 	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
@@ -98,7 +98,7 @@ export const Container = styled.div`
   export const Header = styled.div`
     width: 100vw;
     height: 7vh;
-    background: white;
+    background: black;
     display: flex;
     justify-content: space-between;
 

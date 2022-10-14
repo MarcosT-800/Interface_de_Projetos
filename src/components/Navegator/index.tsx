@@ -14,18 +14,16 @@ function activeLink() {
 list.forEach((item) =>
 item.addEventListener('click', activeLink))
 
-
 const Home: React.FC = () => {
+
   return (
 <>
-
-<script type="module" src="hhtps://unpkg.com/ionicon@5.2/dist/ionicons/ionicons.esm.js"></script>
-             <script nomodule src="http://unpkg.com/ionicons@5.3/dist/ionicons/ionicons.js"></script>
         <Container>
            <Navigation>
+           <body>
              <ul className="navigation">
                 <li className="active">
-                    <a href="#">
+                    <a href="1section">
                         <span className="icon"></span>
                         <span className="text">Home</span>
 
@@ -34,15 +32,16 @@ const Home: React.FC = () => {
 
                 <li>
                     <a href="#">
-                        <span className="icon"><ion-icon nome="camera-outline"></ion-icon></span>
+                        <span className="icon"></span>
                         <span className="text">Profile</span>
 
                     </a>
                 </li>
-
+ 
                 <li>
                     <a href="#">
-                        <span className="icon"><img src="tdhdt"/></span>
+                        
+                        <span className="icon"></span>
                         <span className="text">Messages</span>
 
                     </a>
@@ -57,8 +56,8 @@ const Home: React.FC = () => {
                 </li>
              </ul>
 
-             <script type="module" src="hhtps://unpkg.com/ionicon@5.2/dist/ionicons/ionicons.esm.js"></script>
-             <script nomodule src="http://unpkg.com/ionicons@5.3/dist/ionicons/ionicons.js"></script>
+              
+             </body>
            </Navigation>
          </Container>
     </>
